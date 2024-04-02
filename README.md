@@ -71,12 +71,12 @@ This is the overall view of the final product.  Once I get the login screen setu
 1. GymLogRepository --> return LiveData
 1. update Login method
 
-## Video 13:
+## Video 12:
 1. Add user preferences to store login info
 1. Make MainActivity sort by user
 
 ## Bugs to fix
-1. User login is not persisting... wtf?
+1. User login is not persisting... why?
 1. display is not updating immediatly...
 	* Issue is with asynch so adding a recycler will fix it...
 
