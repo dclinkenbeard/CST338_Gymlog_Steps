@@ -75,6 +75,16 @@ This is the overall view of the final product.  Once I get the login screen setu
 1. Add user preferences to store login info
 1. Make MainActivity sort by user
 
+## Video 13: ???
+
+## Video 14: Fixing the sharedPreference
+[Android Developer documentation on SharedPreference](https://developer.android.com/training/data-storage/shared-preferences#java)
+1. Create a method to store userId in the shared preference
+1. Update our shared preference to read from the strings.xml file
+1. Update logout method
+1. Update login method
+
+
 ## Bugs to fix
 1. User login is not persisting... why?
 1. display is not updating immediatly...
