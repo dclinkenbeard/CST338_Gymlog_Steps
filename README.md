@@ -97,4 +97,12 @@ This is the overall view of the final product.  Once I get the login screen setu
 2. Create the viewHolder
 3. Create the adapter
 4. Update MainActivity to have a recycler view
-5. profit?
+5. The fix for the display was:
+	1. The problem was that the content needed to 'wrap' in the recylcer item AND the recycler object needed a defined height. So the following changes fixed everything.
+	1. gymlog_recycler_item.xml:4
+		* change kayout_height to "wrap_content"
+	1. activity_main.xml:14
+		* change layout_height to 300dp
+	1. MainActivity.java:insertGymLogRecord()
+		* repository.insertGymLog(log) --> gymLogViewModel.insert(log)
+
