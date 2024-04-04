@@ -86,12 +86,14 @@ This is the overall view of the final product.  Once I get the login screen setu
 
 
 ## Bugs to fix
-1. User login is not persisting... why?
+1. FIXED ~~User login is not persisting... why?~~
 1. display is not updating immediatly...
 	* Issue is with asynch so adding a recycler will fix it...
 
 ## Add a recycler
+[Following Android Room With a View guide](https://developer.android.com/codelabs/android-room-with-a-view#0)
 1. Update the GymLog DAO to return liveData
+	* Done
 2. Create the viewHolder
 3. Create the adapter
 4. Update MainActivity to have a recycler view
